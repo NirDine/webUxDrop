@@ -1,0 +1,43 @@
+	#header nav.menu {
+	background-color:#3b4d95;
+	border-bottom-color:#e2e2e2;
+	}
+	
+		#header .navbar > li {
+		border-left-color:#676dbf !important;
+		}
+		
+		#header .navbar > li a {
+			color: #d2d2d2;
+			text-decoration: none;
+		}
+		
+			#header .navbar > li a:hover {
+				background-color:#2f3a7b;
+				color: #d2d2d2;
+			}
+			
+		#header ul.navbar > li a.appraiate {
+			background-image: none;
+			background-color: #a72424;
+			color: #fff;
+		}
+
+			#header ul.navbar > li a.appraiate:hover {
+				background-image: none;
+				background-color:#8a2222;
+			}
+			
+	#content div#info {
+		background-color:#d9ebff;
+	}
+	
+	#content div#about {
+		background-color:#9fda9e;
+		
+	}
+	
+	#content div#appraisal {
+		background-color:#e29999;
+		background-image: url(../img/about.jpg);
+	}
